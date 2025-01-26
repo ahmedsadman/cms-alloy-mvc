@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/mssql/server:2019-latest AS base
+FROM mcr.microsoft.com/mssql/server:2019-CU30-ubuntu-20.04 AS base
 
 ENV ACCEPT_EULA=Y
 
